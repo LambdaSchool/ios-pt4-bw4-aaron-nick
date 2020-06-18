@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E691488249AFE3300FAFCE1 /* NFCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E691487249AFE3300FAFCE1 /* NFCViewController.swift */; };
 		D74430092499CC740001E0E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74430082499CC740001E0E8 /* AppDelegate.swift */; };
 		D744300B2499CC740001E0E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D744300A2499CC740001E0E8 /* SceneDelegate.swift */; };
-		D744300D2499CC740001E0E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D744300C2499CC740001E0E8 /* ViewController.swift */; };
 		D74430102499CC740001E0E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D744300E2499CC740001E0E8 /* Main.storyboard */; };
 		D74430122499CC790001E0E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D74430112499CC790001E0E8 /* Assets.xcassets */; };
 		D74430152499CC790001E0E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D74430132499CC790001E0E8 /* LaunchScreen.storyboard */; };
@@ -35,10 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E691487249AFE3300FAFCE1 /* NFCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCViewController.swift; sourceTree = "<group>"; };
 		D74430052499CC740001E0E8 /* MeetUpAttendance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetUpAttendance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D74430082499CC740001E0E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D744300A2499CC740001E0E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D744300C2499CC740001E0E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D744300F2499CC740001E0E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D74430112499CC790001E0E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D74430142499CC790001E0E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,7 +101,7 @@
 			children = (
 				D74430082499CC740001E0E8 /* AppDelegate.swift */,
 				D744300A2499CC740001E0E8 /* SceneDelegate.swift */,
-				D744300C2499CC740001E0E8 /* ViewController.swift */,
+				3E691487249AFE3300FAFCE1 /* NFCViewController.swift */,
 				D744300E2499CC740001E0E8 /* Main.storyboard */,
 				D74430112499CC790001E0E8 /* Assets.xcassets */,
 				D74430132499CC790001E0E8 /* LaunchScreen.storyboard */,
@@ -259,9 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D744300D2499CC740001E0E8 /* ViewController.swift in Sources */,
 				D74430092499CC740001E0E8 /* AppDelegate.swift in Sources */,
 				D744300B2499CC740001E0E8 /* SceneDelegate.swift in Sources */,
+				3E691488249AFE3300FAFCE1 /* NFCViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

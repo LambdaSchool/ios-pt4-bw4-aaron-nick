@@ -34,7 +34,7 @@
                                     <color key="titleShadowColor" systemColor="tertiarySystemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="ScanPressed:" destination="Kxd-h6-NEx" eventType="touchUpInside" id="1w3-CT-34T"/>
+                                    <action selector="ScanPressed:" destination="Kxd-h6-NEx" eventType="touchUpInside" id="CbG-so-axa"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -43,12 +43,12 @@
                     </view>
                     <navigationItem key="navigationItem" id="AAG-ht-K1O"/>
                     <connections>
-                        <outlet property="themess" destination="Pgp-Ej-L78" id="vad-1u-6gQ"/>
+                        <outlet property="textView" destination="Pgp-Ej-L78" id="InY-UZ-Htm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ds7-vs-oxV" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="323" y="-56"/>
+            <point key="canvasLocation" x="265" y="-64"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="tNl-MF-wYO">
@@ -66,7 +66,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="snv-Ct-nMQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-445" y="-56"/>
+            <point key="canvasLocation" x="-491" y="-56"/>
         </scene>
     </scenes>
 </document>

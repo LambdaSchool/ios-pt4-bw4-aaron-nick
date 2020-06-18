@@ -1,20 +1,22 @@
 //
-//  ViewController.swift
+//  NFCViewController.swift
 //  MeetUpAttendance
 //
-//  Created by Joe on 6/16/20.
+//  Created by Nicolas Rios on 6/17/20.
 //  Copyright © 2020 LambdaSchool. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class NFCViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
+    
 
+   
 
 }
-

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="c0e-Be-vvx">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vX1-dP-XS4">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -8,14 +8,14 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="5aB-Pj-VJA">
+        <scene sceneID="gVR-32-3UM">
             <objects>
-                <viewController id="Kxd-h6-NEx" customClass="NFCViewController" customModule="MeetUpAttendance" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ag7-Wd-rRB">
+                <viewController id="ftd-1Q-SZr" customClass="NFCViewController" customModule="MeetUpAttendance" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KQr-p0-JeM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Pgp-Ej-L78" userLabel="textview">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="smT-Wy-W9W">
                                 <rect key="frame" x="20" y="103" width="374" height="201"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
@@ -23,50 +23,49 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ydy-Gh-sMa">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MVP-n9-P05">
                                 <rect key="frame" x="149" y="534" width="117" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
-                                <color key="tintColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <state key="normal" title="Scan ">
                                     <color key="titleColor" cocoaTouchSystemColor="lightTextColor"/>
                                     <color key="titleShadowColor" systemColor="tertiarySystemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="ScanPressed:" destination="Kxd-h6-NEx" eventType="touchUpInside" id="CbG-so-axa"/>
+                                    <action selector="ScanPressed:" destination="ftd-1Q-SZr" eventType="touchUpInside" id="5v1-iu-JQG"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="pyc-M8-9bm"/>
+                        <viewLayoutGuide key="safeArea" id="wcV-tU-Nrw"/>
                     </view>
-                    <navigationItem key="navigationItem" id="AAG-ht-K1O"/>
+                    <navigationItem key="navigationItem" id="A6d-gG-RDD"/>
                     <connections>
-                        <outlet property="textView" destination="Pgp-Ej-L78" id="InY-UZ-Htm"/>
+                        <outlet property="textView" destination="smT-Wy-W9W" id="jK4-Ch-5gs"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ds7-vs-oxV" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MTK-2q-YyW" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="265" y="-64"/>
+            <point key="canvasLocation" x="468.11594202898556" y="-47.544642857142854"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="tNl-MF-wYO">
+        <scene sceneID="1pg-K6-vo9">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="c0e-Be-vvx" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="vX1-dP-XS4" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="HEh-BD-nkp">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="CCQ-OW-uul">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="Kxd-h6-NEx" kind="relationship" relationship="rootViewController" id="Gew-WI-As1"/>
+                        <segue destination="ftd-1Q-SZr" kind="relationship" relationship="rootViewController" id="1Ga-4x-lAl"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="snv-Ct-nMQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CO1-pH-BPn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-491" y="-56"/>
+            <point key="canvasLocation" x="-442.02898550724643" y="-47.544642857142854"/>
         </scene>
     </scenes>
 </document>

@@ -1,8 +1,8 @@
 //
-//  NFCViewController.swift
+//  ViewController.swift
 //  MeetUpAttendance
 //
-//  Created by Nicolas Rios on 6/17/20.
+//  Created by Joe on 6/16/20.
 //  Copyright © 2020 LambdaSchool. All rights reserved.
 //
 
@@ -13,11 +13,11 @@ import CoreNFC
 
 class NFCViewController: UIViewController, NFCNDEFReaderSessionDelegate {
     
+  
     @IBOutlet weak var textView: UITextView!
     
    
-   
-    var nfcSession: NFCNDEFReaderSession?
+      var nfcSession: NFCNDEFReaderSession?
     
     
     @IBAction func ScanPressed(_ sender: Any) {
